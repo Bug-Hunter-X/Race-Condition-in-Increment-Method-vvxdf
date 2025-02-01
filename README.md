@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in Java and its solution. The `BuggyIncrement.java` file contains a method `incrementX()` that is not thread-safe, leading to unpredictable results when accessed by multiple threads concurrently. The `FixedIncrement.java` file provides a solution by using appropriate synchronization mechanisms to ensure thread safety.
